@@ -1,0 +1,20 @@
+Method: Compression
+Rows: 42448764      
+Time: 121.95 seconds
+Memory: 685.21 MB 
+
+Method: Dask
+Rows: 42448764
+Time: 41.66 seconds
+Memory: 83.6 MB
+
+Method: Pandas Chunk
+Rows: 42448764
+Time: 67.36 seconds
+Memory: 10.54 MB
+
+الاستنتاج
+
+الأسرع: Dask
+الأقل استهلاكًا للذاكرة: Pandas Chunk
+الأقل كفاءة على البيانات الكبيرة: Compression
